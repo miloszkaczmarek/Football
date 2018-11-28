@@ -1,0 +1,14 @@
+{
+  "main.css": "/football/static/css/main.d9e54c16.chunk.css",
+  "main.js": "/football/static/js/main.ee11bd8d.chunk.js",
+  "main.js.map": "/football/static/js/main.ee11bd8d.chunk.js.map",
+  "static/js/1.c103f195.chunk.js": "/football/static/js/1.c103f195.chunk.js",
+  "static/js/1.c103f195.chunk.js.map": "/football/static/js/1.c103f195.chunk.js.map",
+  "runtime~main.js": "/football/static/js/runtime~main.c5372b0a.js",
+  "runtime~main.js.map": "/football/static/js/runtime~main.c5372b0a.js.map",
+  "static/media/main.scss": "/football/static/media/background.101a2900.png",
+  "static/css/main.d9e54c16.chunk.css.map": "/football/static/css/main.d9e54c16.chunk.css.map",
+  "index.html": "/football/index.html",
+  "precache-manifest.a0d45b9c9cc329525695395ac5323b8c.js": "/football/precache-manifest.a0d45b9c9cc329525695395ac5323b8c.js",
+  "service-worker.js": "/football/service-worker.js"
+}
