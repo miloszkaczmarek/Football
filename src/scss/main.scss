@@ -1,0 +1,291 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+  margin:20px 0;
+  color:white;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size:40px;
+}
+
+
+body{
+  margin:40px 0;
+  background-color: #0F0F0F;
+  font-family: 'Oswald', sans-serif;
+  background-image: url('../background.png');
+  //&:after{
+  //  content: "";
+  //  background-image: url('../bernabeu.jpg');
+  //  background-repeat: repeat;
+  //  opacity: 0.2;
+  //  top: 0;
+  //  left: 0;
+  //  bottom: 0;
+  //  right: 0;
+  //  position: absolute;
+  //  z-index: -1;
+  //}
+}
+
+.menu{
+  color:white;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  li{
+    list-style: none;
+    margin:0 10px;
+    text-transform: uppercase;
+    padding:10px;
+    transition: 0.4s;
+    &:hover{
+      background-color:white;
+      border-radius:5px;
+      color:#0F0F0F;
+      cursor:pointer;
+    }
+  }
+}
+
+.container{
+  max-width:1200px;
+  width:100%;
+  margin:0 auto;
+
+}
+
+.players{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .oneplayer{
+    width:250px;
+    height:250px;
+    background-color: #F9F9F9;
+    margin:15px;
+    border-radius:10px;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    cursor:pointer;
+    &:hover{
+      transform:scale(1.1);
+      border:2px solid #F3F3F3;
+    }
+    h2{
+      color:#0F0F0F;
+      font-weight:300;
+    }
+    img{
+      height:180px;
+      margin:5px 0;
+      &:before{
+        content: "";
+        background-image: url("http://iconbug.com/data/b1/256/a3b23e35d032cbd79ca849dc6a709666.png");
+        background-size: cover;
+        background-position: center;
+        display: block;
+        height:170px;
+        width:170px;
+      }
+    }
+  }
+}
+
+input{
+  display:block;
+  margin:15px auto;
+  width:400px;
+  height:40px;
+  border-radius:8px;
+}
+
+.playerinfo{
+  margin:0 auto;
+  display:flex;
+  flex-wrap: wrap;
+  color:white;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  img{
+    background:rgba(255,255,255, 0.15);
+  }
+}
+
+a{
+  color:white;
+  text-decoration: none;
+  padding:10px;
+  transition: 0.4s;
+  &:hover{
+    color:black
+  }
+}
+
+.info{
+  display:flex;
+  align-items: center;
+  background:rgba(255,255,255, 0.15);
+  margin:10px 0;
+  padding:10px;
+  transition: 1s;
+  &:hover{
+    transform: scale(1.05);
+    cursor:default;
+  }
+  h1{
+    font-size:35px;
+    margin-right:20px;
+    display: flex;
+  }
+  h3{
+    font-size:32px;
+    font-weight: 500;
+  }
+}
+
+.match{
+  display:flex;
+  padding-top:50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top:130px;
+  img{
+    width:200px;
+  }
+  h1{
+    color:white;
+    font-size:90px;
+    text-align:center;
+    margin:0 auto;
+  }
+  h2{
+    color:white;
+    font-size:40px;
+  }
+}
+
+.comments{
+  color:white;
+  h4{
+    background:rgba(255,255,255, 0.2);
+    padding:15px;
+    border-radius:10px;
+    margin:10px 0;
+    font-weight:500;
+  }
+  textarea{
+    width:100%;
+  }
+  button{
+    float:right;
+    background-color: white;
+    border:none;
+    padding:20px;
+    border-radius:10px;
+    font-size:15px;
+    clear:both;
+  }
+  input{
+    float:right
+  }
+}
+
+.teamName{
+  width:400px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.scheduled{
+  color:white;
+  text-align:center;
+  hr{
+    width:200px;
+    margin:0 auto;
+    margin-top:20px;
+  }
+  h2{
+    font-weight:500;
+  }
+}
+
+//.btn-matches{
+//  margin:30px auto;
+//  padding:20px;
+//  border-radius: 10px;
+//  text-transform: uppercase;
+//  border:none;
+//  display:block;
+//}
+
+.myButton {
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+  background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+  background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+  background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+  background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+  background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+  background-color:#ffffff;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #dcdcdc;
+  display:inline-block;
+  cursor:pointer;
+  color:#666666;
+  font-size:21px;
+  font-weight:300;
+  padding:18px 54px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+  margin:20px auto;
+  position: relative;
+}
+.myButton:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
+  background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+  background:-webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+  background:-o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+  background:-ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+  background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
+  background-color:#f6f6f6;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+.schedule{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scorers{
+  color:white;
+  display:flex;
+  margin-bottom:15px;
+  h2{
+    font-weight:300;
+  }
+}
+
